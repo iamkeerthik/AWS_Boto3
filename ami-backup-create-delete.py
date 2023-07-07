@@ -75,8 +75,8 @@ def backup_and_delete_amis(instance_dict, profile_name, retention_days):
 
 # Specify your instance IDs, regions, profile name, and retention period (in days) here
 instance_dict = {
-    'ap-south-1': ['i-09decea635b4e8f77'],
-    'us-east-2': ['i-0b7624197f3ade8dd']
+    'ap-south-1': ['instnaceid1','instnaceid2'],
+    'us-east-2': ['instnaceid1','instnaceid2']
 }
 
 profile_name = 'PS'
